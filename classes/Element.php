@@ -18,7 +18,7 @@ class Element
     public function listElements(){
         $link=Connexion::connect();
 
-        $sql="SELECT atomicNumber,symbol,name,atomicMass FROM periodic_table";
+        $sql="SELECT atomicNumber,symbol,name,atomicMass,groupBlock FROM periodic_table";
 
         $stmt=$link->prepare($sql);
 

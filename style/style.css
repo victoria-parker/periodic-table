@@ -4,10 +4,64 @@
 body{
     font-family: 'Roboto Mono', monospace;
 }
-
 .element-container{
-    width: 100px;
+    width: 70px;
+    height: 70px;
 }
 .element-container p{
     margin: 0;
 }
+p{
+    font-size: 10px;
+}
+#periodic-table{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(18,70px);
+    grid-template-rows: repeat(10,70px);
+}
+
+#element2{
+    grid-column-start: 18;
+}
+
+#element5{
+    grid-column-start: 13;
+}
+
+#element13{
+    grid-column-start: 13;
+}
+
+/*#element89{*/
+/*    grid-column-start:4;*/
+/*    background-color: red;*/
+/*}*/
+
+#element87,
+#element88{
+    grid-row-start: 7;
+}
+#element72,
+#element104{
+    grid-column-start: 4;
+}
+.Lanthanide{
+    grid-row: 9/10;
+}
+.Actinide{
+    grid-row: 10/10;
+}
+
+
+/*grid-template-areas:
+        'header header header'
+        'header content content';*/
+
+/*h1{*/
+/*    grid-area: header;*/
+/*}*/
+
+/*div{*/
+/*    grid-area: content;*/
+/*}*/
