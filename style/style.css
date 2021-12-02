@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
-
 body{
     font-family: 'Roboto Mono', monospace;
 }
@@ -12,7 +11,7 @@ body{
     margin: 0;
 }
 p{
-    font-size: 10px;
+    font-size: 9px;
 }
 #periodic-table{
     justify-content: center;
@@ -33,11 +32,6 @@ p{
     grid-column-start: 13;
 }
 
-/*#element89{*/
-/*    grid-column-start:4;*/
-/*    background-color: red;*/
-/*}*/
-
 #element87,
 #element88{
     grid-row-start: 7;
@@ -48,20 +42,33 @@ p{
 }
 .Lanthanide{
     grid-row: 9/10;
+    background-color: #FFC0AD;
 }
 .Actinide{
     grid-row: 10/10;
+    background-color: #C8F3BA;
 }
-
-
-/*grid-template-areas:
-        'header header header'
-        'header content content';*/
-
-/*h1{*/
-/*    grid-area: header;*/
-/*}*/
-
-/*div{*/
-/*    grid-area: content;*/
-/*}*/
+.Nonmetal{
+    background-color: #FAFFC2;
+}
+.Alkali{
+    background-color: #FFD6F1;
+}
+.Alkaline{
+    background-color: #D1E7DD;
+}
+.Transition{
+    background-color: #CFE2FF;
+}
+.Post-transition{
+    background-color: #CFF4FC;
+}
+.Metalloid{
+    background-color: #C9FFC9;
+}
+.Halogen{
+    background-color: #FEDEC3;
+}
+.Noble{
+    background-color: #DFDCE5;
+}
