@@ -6,7 +6,6 @@ body{
 .element-container{
     width: 70px;
     height: 70px;
-    cursor: pointer;
 }
 .element-container p{
     margin: 0;
