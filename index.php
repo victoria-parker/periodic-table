@@ -21,27 +21,6 @@
                 }
             ?>
         </div>
-<!---->
-<!--        <div class="card" id="element-data">-->
-<!--            <div class="row">-->
-<!--                <div class="col-md-4" id="symbol">-->
-<!--                    <span class="text-center fw-bolder fs-2">H</span>-->
-<!--                </div>-->
-<!--                <div class="col-md-8">-->
-<!--                    <div class="card-body">-->
-<!--                        <h5 class="card-title">Hydrogen</h5>-->
-<!--                        <ul>-->
-<!--                            <li>Atomic Number: 1</li>-->
-<!--                            <li>Atomic Mass: 1</li>-->
-<!--                            <li>Standard State: Gas</li>-->
-<!--                            <li>Group Block: Non Metal</li>-->
-<!--                            <li>Year Discovered: 1766</li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!---->
     </main>
 
 <?php
